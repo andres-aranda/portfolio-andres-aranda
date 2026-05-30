@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Andrés Aranda | Ingeniero en Sistemas & Desarrollador .NET Fullstack</title>
+    <meta name="description" content="Portafolio profesional de Andrés Aranda, Ingeniero en Sistemas de Información y Desarrollador .NET Ssr. Especialista en C#, Angular, Blazor y Azure.">
+    <meta name="keywords" content="Andres Aranda, .NET, C#, Desarrollador, Ingeniero en Sistemas, Blazor, Angular, Flutter, Rosario, Argentina, Portfolio">
+    <meta name="author" content="Andrés Aranda">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Andrés Aranda | Ingeniero en Sistemas & Desarrollador .NET">
+    <meta property="og:description" content="Conoce la trayectoria, habilidades y proyectos de Andrés Aranda. Desarrollador .NET Fullstack con base en Rosario, Argentina.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Andrés Aranda | Ingeniero en Sistemas & Desarrollador .NET">
+    <meta property="twitter:description" content="Portafolio profesional de Andrés Aranda. Ingeniero en Sistemas de Información y desarrollador .NET Fullstack.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Glow Blobs (Dynamic Visuals) -->
+    <div class="blob-wrapper">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo-link">
+                <span class="logo-text">Aranda<span class="logo-accent">.dev</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link active">Sobre Mí</a></li>
+                    <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#education" class="nav-link">Educación</a></li>
+                    <li><a href="#contact" class="nav-link nav-btn">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu principal">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-wrapper">
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-container container">
+                <div class="hero-content reveal">
+                    <div class="badge-accent">Disponible para nuevos desafíos</div>
+                    <h1 class="hero-title">
+                        Hola, soy <span class="text-gradient">Andrés Aranda</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Ingeniero en Sistemas & Desarrollador .NET Fullstack</h2>
+                    <p class="hero-description">
+                        Especializado en diseñar y desarrollar arquitecturas empresariales sólidas con <strong>C# y el ecosistema .NET</strong>. Creo APIs de alto rendimiento, sistemas escalables y aplicaciones web e híbridas interactivas con <strong>Angular, Blazor y Flutter</strong>.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Hablemos ahora</a>
+                        <a href="file:///C:/Users/andre/.gemini/antigravity/scratch/Andres Aranda CV.pdf" target="_blank" class="btn btn-secondary" id="download-cv">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            Descargar CV (PDF)
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual reveal">
+                    <!-- Glassmorphism Interactive Dev Card -->
+                    <div class="dev-card">
+                        <div class="card-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                            <span class="card-title">aranda-profile.cs</span>
+                        </div>
+                        <div class="card-body">
+                            <pre><code><span class="keyword">using</span> System;
+<span class="keyword">using</span> System.Collections.Generic;
+
+<span class="keyword">public class</span> <span class="type">Developer</span> 
+{
+    <span class="keyword">public string</span> Name { <span class="keyword">get</span>; } = <span class="string">"Andrés Aranda"</span>;
+    <span class="keyword">public string</span> Role { <span class="keyword">get</span>; } = <span class="string">"Desarrollador .NET Ssr"</span>;
+    
+    <span class="keyword">public</span> <span class="type">List</span>&lt;<span class="keyword">string</span>&gt; CoreSkills => <span class="keyword">new</span>() {
+        <span class="string">".NET Core / C#"</span>,
+        <span class="string">"APIs REST & microservicios"</span>,
+        <span class="string">"Angular & TypeScript"</span>,
+        <span class="string">"Flutter (Mobile)"</span>,
+        <span class="string">"SQL & NoSQL databases"</span>
+    };
+
+    <span class="keyword">public bool</span> Disciplined { <span class="keyword">get</span>; } = <span class="keyword">true</span>;
+    <span class="keyword">public bool</span> ProactiveTeamPlayer { <span class="keyword">get</span>; } = <span class="keyword">true</span>;
+}</code></pre>
+                        </div>
+                        <div class="card-footer">
+                            <div class="footer-stat">
+                                <span class="stat-number">6+</span>
+                                <span class="stat-label">Años Académicos</span>
+                            </div>
+                            <div class="footer-stat">
+                                <span class="stat-number">4+</span>
+                                <span class="stat-label">Roles Profesionales</span>
+                            </div>
+                            <div class="footer-stat">
+                                <span class="stat-number">B2</span>
+                                <span class="stat-label">Nivel de Inglés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid reveal">
+                    <div class="about-info">
+                        <p class="lead-text">
+                            Soy <strong>Ingeniero en Sistemas de Información</strong> y <strong>Analista en Sistemas</strong> egresado de la Universidad Tecnológica Nacional. 
+                        </p>
+                        <p class="about-text">
+                            Me considero un profesional altamente proactivo, disciplinado y orientado al aprendizaje continuo en entornos de desarrollo colaborativos. Cuento con una sólida experiencia resolviendo problemas lógicos complejos y optimizando el backend de plataformas de alta demanda utilizando tecnologías del ecosistema de Microsoft, complementándolo con modernas tecnologías de frontend para brindar una experiencia de usuario sobresaliente.
+                        </p>
+                        <div class="scout-badge">
+                            <div class="scout-icon">⚜️</div>
+                            <div class="scout-text">
+                                <strong>Educador en Scouts de Argentina</strong><br>
+                                Esta experiencia ha fortalecido mis habilidades de liderazgo, comunicación asertiva, valores sociales, trabajo bajo presión y compromiso comunitario.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-attributes">
+                        <div class="attr-card">
+                            <h3 class="attr-title">Habilidades Clave</h3>
+                            <ul class="attr-list">
+                                <li>
+                                    <span class="attr-bullet"></span>
+                                    <span><strong>Trabajo en Grupo:</strong> Sólido desempeño en metodologías ágiles en equipo.</span>
+                                </li>
+                                <li>
+                                    <span class="attr-bullet"></span>
+                                    <span><strong>Disciplinado:</strong> Rigor técnico en el desarrollo de buenas prácticas y patrones.</span>
+                                </li>
+                                <li>
+                                    <span class="attr-bullet"></span>
+                                    <span><strong>Proactivo:</strong> Iniciativa constante para proponer mejoras y optimizaciones.</span>
+                                </li>
+                                <li>
+                                    <span class="attr-bullet"></span>
+                                    <span><strong>Crecimiento Constante:</strong> Adaptación veloz a nuevas tecnologías.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="attr-card details-card">
+                            <div class="detail-item">
+                                <span class="detail-icon">📍</span>
+                                <div class="detail-info">
+                                    <span class="detail-label">Ubicación</span>
+                                    <span class="detail-value">Rosario, Santa Fe, Argentina</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">🌐</span>
+                                <div class="detail-info">
+                                    <span class="detail-label">Idiomas</span>
+                                    <span class="detail-value">Español (Nativo) | Inglés B2 (B1 Certificado EF SET)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-icon">🎂</span>
+                                <div class="detail-info">
+                                    <span class="detail-label">Nacimiento</span>
+                                    <span class="detail-value">3 de Septiembre de 1999</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="experience-section section-padding" id="experience">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Experiencia Laboral</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline reveal">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">MARZO 2026 - PRESENTE</div>
+                        <div class="timeline-content">
+                            <h3 class="role-title">Desarrollador Ssr</h3>
+                            <h4 class="company-name">PRAXYS S.A.</h4>
+                            <p class="company-desc">
+                                Lidero el diseño y desarrollo de arquitecturas de software basadas en servicios distribuidos, APIs robustas y aplicaciones multiplataforma.
+                            </p>
+                            <ul class="task-list">
+                                <li>Desarrollo robusto basado en APIs REST, microservicios y arquitectura MVC.</li>
+                                <li>Mantenimiento y optimización de aplicaciones Windows Forms empresariales.</li>
+                                <li>Uso de Docker para orquestación y entornos Azure para despliegues de nube.</li>
+                                <li>Integración móvil usando Flutter para interfaces de usuario cross-platform.</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">C#</span>
+                                <span class="tag">.NET Core</span>
+                                <span class="tag">.NET Framework</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">Azure</span>
+                                <span class="tag">Flutter</span>
+                                <span class="tag">APIs REST</span>
+                                <span class="tag">VB.net</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">ABRIL 2022 - MARZO 2026</div>
+                        <div class="timeline-content">
+                            <h3 class="role-title">Desarrollador Ssr</h3>
+                            <h4 class="company-name">SOLVER SRL</h4>
+                            <p class="company-desc">
+                                Responsable de la evolución, escalabilidad e integraciones críticas de sistemas corporativos de alta demanda.
+                            </p>
+                            <ul class="task-list">
+                                <li>Desarrollo y refactorización de servicios de API backend y módulos MVC complejos.</li>
+                                <li>Optimización de bases de datos relacionales, manejo de LINQ y Entity Framework.</li>
+                                <li>Desarrollo de módulos utilizando C#, .NET Core, .NET Framework y legacy VB.net.</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">C#</span>
+                                <span class="tag">.NET Core</span>
+                                <span class="tag">.NET Framework</span>
+                                <span class="tag">APIs REST</span>
+                                <span class="tag">MVC</span>
+                                <span class="tag">Windows Forms</span>
+                                <span class="tag">VB.net</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">JUNIO 2021 - ABRIL 2022</div>
+                        <div class="timeline-content">
+                            <h3 class="role-title">Desarrollador Jr</h3>
+                            <h4 class="company-name">NEORIS</h4>
+                            <p class="company-desc">
+                                Participación en el ciclo completo de desarrollo de aplicaciones web ágiles y sistemas corporativos internacionales.
+                            </p>
+                            <ul class="task-list">
+                                <li>Desarrollo frontend modular interactivo utilizando Angular 7 y TypeScript.</li>
+                                <li>Integración ágil de controladores backend en .NET Core y APIs REST estructuradas.</li>
+                                <li>Trabajo diario con metodologías Scrum y Git.</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">C#</span>
+                                <span class="tag">.NET Core</span>
+                                <span class="tag">Angular 7</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Javascript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">MARZO 2020 - OCTUBRE 2020</div>
+                        <div class="timeline-content">
+                            <h3 class="role-title">Desarrollador Trainee</h3>
+                            <h4 class="company-name">EXADEC</h4>
+                            <p class="company-desc">
+                                Primeras experiencias en el ámbito tecnológico profesional, enfocadas en desarrollo backend, testing y análisis inicial de sistemas.
+                            </p>
+                            <ul class="task-list">
+                                <li>Colaboración en desarrollos basados en Redux para frontend y Laravel (PHP) en backend.</li>
+                                <li>Ejecución de análisis funcional de sistemas y diseño de casos de uso estructurados.</li>
+                                <li>Tareas de testing, diseño de planes de prueba y control de calidad inicial.</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">Laravel</span>
+                                <span class="tag">Javascript</span>
+                                <span class="tag">Redux</span>
+                                <span class="tag">Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section (Tabbed Layout) -->
+        <section class="skills-section section-padding" id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Habilidades Técnicas</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-wrapper reveal">
+                    <div class="skills-tabs">
+                        <button class="tab-btn active" data-tab="backend">Back-End</button>
+                        <button class="tab-btn" data-tab="frontend">Front-End</button>
+                        <button class="tab-btn" data-tab="funcionales">Funcionales y Metodologías</button>
+                    </div>
+
+                    <div class="skills-content">
+                        <!-- Backend Tab -->
+                        <div class="tab-pane active" id="backend">
+                            <div class="skills-grid">
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">C# & .NET Core / .NET Framework</span>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">APIs RESTful (ASP.NET WebAPI)</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">LINQ & Entity Framework</span>
+                                        <span class="skill-percent">90%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">SQL Server & MySQL</span>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Testing (NUnit, Moq)</span>
+                                        <span class="skill-percent">80%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">SignalR & Real-time Web</span>
+                                        <span class="skill-percent">75%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Frontend Tab -->
+                        <div class="tab-pane" id="frontend">
+                            <div class="skills-grid">
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">HTML5 & CSS3 (Flexbox/Grid)</span>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">JavaScript & TypeScript</span>
+                                        <span class="skill-percent">80%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Angular (7+)</span>
+                                        <span class="skill-percent">75%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Blazor (Server & WebAssembly)</span>
+                                        <span class="skill-percent">80%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Flutter (Mobile Interfaces)</span>
+                                        <span class="skill-percent">70%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Windows Forms & MVC ASP.NET</span>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Functional Tab -->
+                        <div class="tab-pane" id="funcionales">
+                            <div class="skills-grid">
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Metodologías Ágiles (Scrum)</span>
+                                        <span class="skill-percent">95%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Design Thinking</span>
+                                        <span class="skill-percent">85%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Figma (UI/UX Review)</span>
+                                        <span class="skill-percent">75%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">User Journey Maps & Casos de Uso</span>
+                                        <span class="skill-percent">80%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Casos de Prueba & QA Integrado</span>
+                                        <span class="skill-percent">80%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-info">
+                                        <span class="skill-name">Manejo de KPIs de Proyectos</span>
+                                        <span class="skill-percent">70%</span>
+                                    </div>
+                                    <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Courses Section -->
+        <section class="education-section section-padding" id="education">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Formación Académica & Cursos</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="edu-grid">
+                    <!-- Academic Column -->
+                    <div class="edu-column reveal">
+                        <h3 class="column-subtitle">Estudios Universitarios</h3>
+                        
+                        <div class="edu-card">
+                            <div class="edu-badge">Graduado</div>
+                            <span class="edu-date">2018 - 2025</span>
+                            <h4 class="edu-degree">Ingeniería en Sistemas de Información</h4>
+                            <h5 class="edu-school">Universidad Tecnológica Nacional (UTN)</h5>
+                            <p class="edu-details">
+                                Título de grado enfocado en el diseño, desarrollo, auditoría y gestión de sistemas complejos de información y tecnologías de la computación.
+                            </p>
+                        </div>
+
+                        <div class="edu-card">
+                            <div class="edu-badge">Graduado</div>
+                            <span class="edu-date">2018 - 2023</span>
+                            <h4 class="edu-degree">Analista Universitario en Sistemas de Información</h4>
+                            <h5 class="edu-school">Universidad Tecnológica Nacional (UTN)</h5>
+                            <p class="edu-details">
+                                Formación intermedia enfocada en el análisis, modelado lógico, diseño de bases de datos y desarrollo directo de software empresarial.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Courses Column -->
+                    <div class="edu-column reveal">
+                        <h3 class="column-subtitle">Cursos & Certificaciones</h3>
+                        
+                        <div class="course-list">
+                            <div class="course-item">
+                                <span class="course-year">2023</span>
+                                <div class="course-info">
+                                    <h4 class="course-name">Máster en Blazor (Server y WASM) .NET 8</h4>
+                                    <p class="course-tech">LINQ, Blazor Server, Blazor WebAssembly, Entity Framework, SQL, Azure</p>
+                                </div>
+                            </div>
+
+                            <div class="course-item">
+                                <span class="course-year">2021</span>
+                                <div class="course-info">
+                                    <h4 class="course-name">Unit Testing for C# Developers</h4>
+                                    <p class="course-tech">NUnit, Moq, Pruebas Unitarias, Buenas Prácticas de Arquitectura</p>
+                                </div>
+                            </div>
+
+                            <div class="course-item">
+                                <span class="course-year">2021</span>
+                                <div class="course-info">
+                                    <h4 class="course-name">Lab .NET-Angular - NEORIS</h4>
+                                    <p class="course-tech">API Rest, Javascript, Angular, C#, LINQ, Entity Framework, MVC</p>
+                                </div>
+                            </div>
+
+                            <div class="course-item">
+                                <span class="course-year">2020</span>
+                                <div class="course-info">
+                                    <h4 class="course-name">Lab React-Javascript - Agrofy</h4>
+                                    <p class="course-tech">API Rest, Javascript, React, Manejo de LocalStorage y Estado</p>
+                                </div>
+                            </div>
+
+                            <div class="course-item cert-item">
+                                <span class="course-year">2024</span>
+                                <div class="course-info">
+                                    <h4 class="course-name">EF SET English Certificate (B1 Intermediate)</h4>
+                                    <p class="course-tech">Puntuación: 46/100 (Competencias de lectura y comprensión auditiva en inglés)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Charlemos</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid reveal">
+                    <!-- Contact Information -->
+                    <div class="contact-info-panel">
+                        <h3 class="panel-title">¿Tienes un proyecto en mente?</h3>
+                        <p class="panel-desc">
+                            Estoy abierto a escuchar propuestas profesionales de desarrollo, consultorías técnicas o colaboraciones en proyectos innovadores de tecnología. Escríbeme y responderé lo antes posible.
+                        </p>
+
+                        <div class="contact-methods">
+                            <a href="mailto:andres.w.aranda@gmail.com" class="method-card">
+                                <div class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="method-details">
+                                    <span class="method-label">Email</span>
+                                    <span class="method-value">andres.w.aranda@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+5493416135076" class="method-card">
+                                <div class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="method-details">
+                                    <span class="method-label">Llamadas / WhatsApp</span>
+                                    <span class="method-value">+54 9 341 6135076</span>
+                                </div>
+                            </a>
+
+                            <div class="method-card no-click">
+                                <div class="method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="method-details">
+                                    <span class="method-label">Ubicación</span>
+                                    <span class="method-value">Rosario, Santa Fe, Argentina</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/andres-aranda/" target="_blank" aria-label="LinkedIn" class="social-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="https://github.com/andres-aranda" target="_blank" aria-label="GitHub" class="social-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (Mailto integration / Modern Form UX) -->
+                    <div class="contact-form-panel">
+                        <form action="mailto:andres.w.aranda@gmail.com" method="post" enctype="text/plain" class="modern-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Nombre completo</label>
+                                    <input type="text" id="name" name="name" required placeholder="Ej. Juan Pérez">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" id="email" name="email" required placeholder="Ej. juan@example.com">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="message">Mensaje</label>
+                                    <textarea id="message" name="message" rows="5" required placeholder="Cuéntame sobre tu proyecto o propuesta..."></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                Enviar Mensaje
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p class="footer-copy">&copy; 2026 Andrés Aranda. Desarrollado con HTML5, CSS3 y JavaScript nativo.</p>
+            <div class="footer-bottom-links">
+                <a href="#hero">Inicio</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="#experience">Experiencia</a>
+                <a href="https://www.linkedin.com/in/andres-aranda/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JS file -->
+    <script src="./script.js"></script>
+</body>
+</html>
